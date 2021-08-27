@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "axios@0.21.1",
+      "destination": "lib/axios/"
+    },
+    {
+      "library": "bootstrap@5.1.0",
+      "destination": "lib/bootstrap/"
+    },
+    {
+      "library": "jquery@3.6.0",
+      "destination": "lib/jquery/"
+    }
+  ]
+}
