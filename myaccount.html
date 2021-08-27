@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="" />
+    <title>Junno – Multipurpose eCommerce HTML Template</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico" />
+
+    <link rel="stylesheet" href="assets/css/ionicons.min.css" />
+    <link rel="stylesheet" href="assets/css/simple-line-icons.css" />
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <header>
+        <!-- header-middle satrt -->
+        <div class="header-middle pt-10 pb-10 bg-dark">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-sm-6 col-lg-2 order-first">
+                        <div class="logo text-center text-sm-left mb-30 mb-sm-0">
+                            <a href="index.html" class="fs-1 logo">PizzaBar</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-5 col-xl-4">
+                        <!-- search-form end -->
+                        <div class="
+                    d-flex
+                    align-items-center
+                    justify-content-center justify-content-sm-end
+                  ">
+                            <!-- static-media end -->
+                            <div class="cart-block-links theme1">
+                                <ul class="d-flex">
+                                    <li class="mr-0 cart-block position-relative">
+                                        <a class="offcanvas-toggle" href="cart.html">
+                                            <span class="position-relative">
+                                                <i class="icon-bag"></i>
+                                                <!-- <span class="badge cbdg1">3</span> -->
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="offcanvas-toggle" href="myaccount.html">
+                                            <span class="position-relative">
+                                                <i class="icon-user"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <!-- cart block end -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header-middle end -->
+
+        <!-- header bottom start -->
+        <nav id="sticky" class="header-bottom theme1 d-none d-lg-block">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="
+                  col-lg-10
+                  offset-lg-2
+                  d-flex
+                  flex-wrap
+                  align-items-center
+                  position-relative
+                ">
+                        <ul class="main-menu d-flex">
+                            <li class="active ml-0">
+                                <a href="#" class="pl-0">Home <i class="ion-ios-arrow-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li><a href="index.html">Home 1</a></li>
+                                    <li><a href="#">Home 2</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Pages <i class="ion-ios-arrow-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">About Page</a></li>
+                                    <li><a href="cart.html">Cart Page</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Blog <i class="ion-ios-arrow-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="#">Blog Grid</a>
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a href="#">Blog Grid 3 column</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Blog Grid 4 column</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Blog Grid Left Sidebar</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Blog Grid Right Sidebar</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Blog List</a>
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a href="#">Blog List Left Sidebar</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Blog List Right Sidebar</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Blog Single</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Single Blog</a></li>
+                                            <li>
+                                                <a href="#">Blog Single Left Sidebar</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Blog Single Right Sidbar</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- header bottom end -->
+    </header>
+
+    <div class="my-account pt-20 pb-10">
+        <div class="container">
+            <div class="row">
+                <!-- My Account Tab Content Start -->
+                <div class="col-lg-12 col-12 mb-30">
+                    <div class="tab-content" id="myaccountContent">
+                        <div id="orders" role="tabpanel">
+                            <div class="myaccount-content">
+                                <h3 class="w-100 d-inline-flex justify-content-between">Dashboard<button type="button"
+                                        class="btn btn-primary ms-1 d-inline-flex" data-bs-toggle="modal"
+                                        data-bs-target="#addModalForm"><i class="icon-plus me-1"></i>Додати</button>
+                                </h3>
+                                <div class="myaccount-table table-responsive text-center">
+                                    <table class="table table-bordered">
+                                        <thead class="thead-light">
+                                            <tr>
+                                                <th>Id</th>
+                                                <th>Фото</th>
+                                                <th>Назва</th>
+                                                <th>Розмір</th>
+                                                <th>Ціна</th>
+                                                <th>Дії</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="cardsTable">
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <span class="badge bg-primary" id="loading">Loading...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="addModalForm" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Додати товар</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="container">
+                    <form id="formAddPizza">
+                        <div class="row mt-2">
+                            <div class="col-2">
+                                <label for="pizzaForm_id_modal" class="col-form-label">Id</label>
+                            </div>
+                            <div class="col-10">
+                                <input type="number" id="pizzaForm_id_modal" class="form-control" disabled required>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-2">
+                                <label for="pizzaForm_name_modal" class="col-form-label">Назва</label>
+                            </div>
+                            <div class="col-10">
+                                <input type="text" id="pizzaForm_name_modal" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-2">
+                                <label for="pizzaForm_size_modal" class="col-form-label">Розмір</label>
+                            </div>
+                            <div class="col-10">
+                                <select class="form-select" id="pizzaForm_size_modal" required>
+                                    <option value="" selected>Вибір...</option>
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="XL">XL</option>
+                                    <option value="XXL">XXL</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-2">
+                                <label for="pizzaForm_price_modal" class="col-form-label">Ціна</label>
+                            </div>
+                            <div class="col-10">
+                                <div class="input-group mb-3">
+                                    <input type="number" class="form-control" id="pizzaForm_price_modal" required>
+                                    <span class="input-group-text">грн.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрити</button>
+                            <button type="submit" class="btn btn-primary" id="saveAdd">Зберегти</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="lib/axios/axios.min.js"></script>
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        window.addEventListener("load", function () {
+            promise
+                .then(function (result) {
+                    console.log("Promise result good!", result);
+                    document.getElementById("loading").innerHTML = "Success, list updated!";
+                    document.getElementById("loading").classList.add('bg-success');
+                    let cardsTable = document.getElementById("cardsTable");
+                    result.forEach(function (pizza) {
+                        cardsTable.insertAdjacentHTML('beforeend', generateTemplateTable(pizza))
+                    });
+
+
+                    let listRemoveBtn = cardsTable.querySelectorAll('.removeCard');
+                    let listUpdateBtn = cardsTable.querySelectorAll('.updateCard');
+                    listRemoveBtn.forEach((el) => removeBrn(el));
+                    listUpdateBtn.forEach((el) => updateBtn(el));
+                })
+                .catch((error) => console.log(error));
+        });
+
+        function generateTemplateTable(obj) {
+            return `
+                        <tr id="cardNum_${obj.id}">
+                            <td>${obj.id}</td>
+                            <td>
+                                <img class="tablePhoto" src="assets/img/product/pizza_${obj.id <= 10 ? obj.id : 1}.jpg" alt="thumbnail">
+                            </td>
+                            <td>
+                                <input type="text" class="form-control cardName" name="Назва" value="${obj.name}">
+                            </td>
+                            <td>
+                                <select class="form-select cardSize" name="Розмір">
+                                    <option value="" ${obj.size == '' ? 'selected' : ''}>Вибір...</option>
+                                    <option value="S" ${obj.size == 'S' ? 'selected' : ''}>S</option>
+                                    <option value="M" ${obj.size == 'M' ? 'selected' : ''}>M</option>
+                                    <option value="XL" ${obj.size == 'XL' ? 'selected' : ''}>XL</option>
+                                    <option value="XXL" ${obj.size == 'XXL' ? 'selected' : ''}>XXL</option>
+                                </select>
+                            </td>
+                            <td>
+                            <div class="input-group">
+                                <input type="number" class="form-control cardPrice" name="Ціна" value="${obj.price}">
+                                <span class="input-group-text">грн.</span>
+                            </div>
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-primary updateCard" value="${obj.id}"><i class="icon-note"></i> Оновити</button>
+                                <button type="button" class="btn btn-danger removeCard" value="${obj.id}"><i class="icon-trash"></i></button>    
+                             </td>
+                        </tr>
+                        `;
+        }
+
+        function removeBrn(el) {
+            el.addEventListener("click", function () {
+                if (window.confirm(`Дійсно видалити товар №${el.value}?`)) {
+                    let url = `${baseUrl}/delete`;
+                    let data = {
+                        id: el.value
+                    }
+                    axios.post(url, data)
+                        .then(response => {
+                            console.log("Remove is good", response);
+                            location.reload();
+                        })
+                        .catch((error) => console.log(error));
+                }
+            })
+        }
+
+        function updateBtn(el) {
+            el.addEventListener("click", function () {
+                console.log(el.value);
+                let card = document.getElementById(`cardNum_${el.value}`);
+                let cardName = card.querySelector('.cardName');
+                let cardSize = card.querySelector('.cardSize');
+                let cardPrice = card.querySelector('.cardPrice');
+
+                let validation = true;
+                if (cardName.value == '') {
+                    cardName.classList.add('is-invalid');
+                    validation = false;
+                }
+                if (cardSize.value == '') {
+                    cardSize.classList.add('is-invalid');
+                    validation = false;
+                }
+                if (cardPrice.value == '') {
+                    cardPrice.classList.add('is-invalid');
+                    validation = false;
+                }
+                if (window.confirm(`Дійсно оновити товар №${el.value}?`)) {
+                    if (validation) {
+                        let url = `${baseUrl}/update`;
+                        let data = {
+                            id: el.value,
+                            name: cardName.value,
+                            size: cardSize.value,
+                            price: cardPrice.value,
+                        }
+                        axios.patch(url, data)
+                            .then(response => {
+                                console.log("Update is good", response);
+                                location.reload();
+                            })
+                            .catch((error) => alert(error));
+                    }
+                }
+            })
+        }
+
+        // add
+        formAddPizza.addEventListener("submit", function (e) {
+            e.preventDefault();
+            let modalFormAdd = document.getElementById('addModalForm');
+            let formAddPizza = modalFormAdd.querySelector('#saveAdd');
+            let pizzaId = modalFormAdd.querySelector("#pizzaForm_id_modal");
+            let pizzaName = modalFormAdd.querySelector("#pizzaForm_name_modal");
+            let pizzaSize = modalFormAdd.querySelector("#pizzaForm_size_modal");
+            let pizzaPrice = modalFormAdd.querySelector("#pizzaForm_price_modal");
+
+            let url = `${baseUrl}/add`;
+            let data = {
+                id: pizzaId.value,
+                name: pizzaName.value,
+                size: pizzaSize.value,
+                price: pizzaPrice.value
+            };
+            axios.post(url, data)
+                .then(response => {
+                    console.log("Add is good", response);
+                    location.reload();
+                })
+                .catch((error) => alert(error))
+        });
+
+        // get ID
+        var addModalForm = document.getElementById('addModalForm');
+        addModalForm.addEventListener('show.bs.modal', function (event) {
+            let promise = new Promise(async function (resolve, reject) {
+                var pizzas = await fetch(`${baseUrl}/list`)
+                    .then(response => response.json());
+                addModalForm.querySelector('#pizzaForm_id_modal').value = ++pizzas[pizzas.length-1].id;
+            })
+        })
+        //
+    </script>
+</body>
+
+</html>
